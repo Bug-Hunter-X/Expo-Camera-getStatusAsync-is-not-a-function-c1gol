@@ -1,0 +1,1 @@
+This error typically occurs when using Expo's `Camera` component and attempting to access the camera's features before it's fully initialized.  The `Camera.getStatusAsync()` method is asynchronous, and you need to handle its promise to ensure that the camera is ready before trying to use its functionalities.
